@@ -1,0 +1,25 @@
+{
+  "name": "gulp",
+  "version": "1.0.0",
+  "description": "gulp build",
+  "type": "module",
+  "devDependencies": {
+    "browser-sync": "*",
+    "gulp": "*",
+    "gulp-autoprefixer": "*",
+    "gulp-clean-css": "*",
+    "gulp-group-css-media-queries": "*",
+    "gulp-imagemin": "8.0.0",
+    "gulp-plumber": "*",
+    "gulp-pug": "*",
+    "gulp-rename": "*",
+    "gulp-sass": "*",
+    "gulp-svg-sprite": "*",
+    "gulp-ttf2woff": "*",
+    "gulp-ttftowoff2": "*",
+    "gulp-uglify": "*",
+    "gulp-webp": "*",
+    "sass": "*"
+  },
+  "browserslist": "last 5 version"
+}

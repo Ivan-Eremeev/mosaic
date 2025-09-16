@@ -1,0 +1,31 @@
+@import 'mixins/mixins';
+
+@include reset(); // Сброс стилей
+
+@import '_variables'; // Кастомные переменные
+
+// @import 'mixingrid/mixingrid'; // Подключение моей сетки
+
+@import 'bootstrap/bootstrap'; // Подключение бутстрап
+
+// Шрифты
+@include font-face("Montserrat", "../fonts/Montserrat-Bold", bold, normal, woff2 woff ttf);
+@include font-face("Montserrat", "../fonts/Montserrat-ExtraBold", 900, normal, woff2 woff ttf);
+@include font-face("CirceRounded", "../fonts/CirceRounded-Regular", normal, normal, woff2 woff ttf);
+@include font-face("Jikharev", "../fonts/ofont.ru_Jikharev", normal, normal, woff2 woff ttf);
+
+// Цвета
+:root {
+  --my-primary-color: #01D8D3;
+  --my-secondary-color: #000;
+}
+
+// Подключение файлов
+@import 'settings';
+
+@import 'core/header';
+@import 'core/footer';
+
+@import 'elements/my-btn.scss';
+
+@import 'blocks/welcome';

@@ -1,0 +1,18 @@
+/* my-btn */
+.my-btn { 
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+  padding: 10px 60px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  user-select: none;
+  transition: .3s;
+  &--primary {
+    background-color: var(--my-primary-color);
+    color: var(--my-secondary-color);
+  }
+}
+/* /my-btn */

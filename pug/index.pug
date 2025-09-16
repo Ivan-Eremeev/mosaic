@@ -1,0 +1,37 @@
+extends core/base.pug
+
+block title 
+  title Главная
+
+block content
+
+  .page 
+
+    include core/header.pug
+
+    .content 
+
+      .container
+        
+        // welcome
+        .welcome
+          .container 
+            .welcome__container 
+              .welcome__content 
+                h1.welcome__title Создай 
+                  mark свой
+                  span  арт
+                  |  -объект
+                .welcome__text.d-md-block.d-none Загрузи любое изображение из своей галереи и посмотри, как будет выглядеть твоя картина!
+              .welcome__media
+                .welcome__media-inner
+                  .twentytwentySlider
+                    img(src="img/welcome_before.jpg", alt="")
+                    img(src="img/welcome_after.jpg", alt="")
+              .welcome__text.d-md-none.d-block Загрузи любое изображение из своей галереи и посмотри, как будет выглядеть твоя картина!
+            .welcome__btn 
+              a(href="instruction.html").my-btn.my-btn--primary.btn--has-icon
+                | Алмазная мозайка
+        // /welcome
+
+    include core/footer.pug

@@ -1,0 +1,28 @@
+/* header */
+.header { 
+  padding: 45px 0;
+  background-color: var(--my-secondary-color);
+  .container {
+    max-width: 1580px;
+  }
+  &__logo {
+    display: flex;
+    align-items: center;
+  }
+  &__logo-1 {
+    display: block;
+    width: 40px;
+    margin-right: 20px;
+    img {
+      display: block;
+    }
+  }
+  &__logo-2 {
+    display: block;
+    width: 80px;
+    img {
+      display: block;
+    }
+  }
+}
+/* /header */
