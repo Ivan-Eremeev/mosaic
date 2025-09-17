@@ -11,27 +11,48 @@ block content
 
     .content 
 
-      .container
-        
-        // welcome
-        .welcome
-          .container 
-            .welcome__container 
-              .welcome__content 
-                h1.welcome__title Создай 
-                  mark свой
-                  span  арт
-                  |  -объект
-                .welcome__text.d-md-block.d-none Загрузи любое изображение из своей галереи и посмотри, как будет выглядеть твоя картина!
-              .welcome__media
-                .welcome__media-inner
-                  .twentytwentySlider
-                    img(src="img/welcome_before.jpg", alt="")
-                    img(src="img/welcome_after.jpg", alt="")
-              .welcome__text.d-md-none.d-block Загрузи любое изображение из своей галереи и посмотри, как будет выглядеть твоя картина!
-            .welcome__btn 
-              a(href="instruction.html").my-btn.my-btn--primary.btn--has-icon
-                | Алмазная мозайка
-        // /welcome
+      // welcome
+      .welcome
+        .container 
+          .welcome__container 
+            .welcome__content 
+              h1.welcome__title Создай 
+                mark свой <br>
+                span  арт
+                |  -объект
+              .welcome__text.d-lg-block.d-none Загрузи любое изображение из своей галереи и посмотри, как будет выглядеть твоя картина!
+            .welcome__media
+              .welcome__media-inner
+                .twentytwentySlider
+                  img(src="img/welcome_before.jpg", alt="")
+                  img(src="img/welcome_after.jpg", alt="")
+            .welcome__text.d-lg-none.d-block Загрузи любое изображение из своей галереи и посмотри, как будет выглядеть твоя картина!
+          .welcome__btn 
+            a(href="instruction.html").my-btn.my-btn--primary.my-btn--has-icon.my-btn--has-icon-right
+              | Алмазная мозайка
+              i.my-btn__icon
+                svg(class="icon-arrow")
+                  use(xlink:href="img/sprite.svg#arrow")
+      // /welcome
+
+      // get-instrucrion
+      .get-instrucrion
+        .container 
+          .get-instrucrion__images 
+            .row.gy-2
+              .col-md-6 
+                .get-instrucrion__img.get-instrucrion__img--left
+                  img(src="img/img1.jpg", alt="")
+              .col-md-6 
+                .get-instrucrion__img.get-instrucrion__img--right 
+                  img(src="img/img2.png", alt="")
+          .get-instrucrion__block 
+            .row.gy-1.align-items-center
+              .col-lg-6 
+                .get-instrucrion__text У тебя уже есть набор <br>"Селфи-конструктора"?
+              .col-lg-6 
+                a(href="#").get-instrucrion__btn 
+                  span Получи инструкцию
+      // /get-instrucrion
 
     include core/footer.pug

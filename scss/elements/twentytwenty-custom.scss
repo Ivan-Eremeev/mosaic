@@ -1,0 +1,18 @@
+// Twentytwenty custom
+.twentytwenty-handle {
+  border-color: var(--my-primary-color);
+}
+.twentytwenty-horizontal .twentytwenty-handle:before,
+.twentytwenty-horizontal .twentytwenty-handle:after,
+.twentytwenty-vertical .twentytwenty-handle:before,
+.twentytwenty-vertical .twentytwenty-handle:after {
+  background: var(--my-primary-color);
+  box-shadow: 0 3px 0 var(--my-primary-color), 0px 0px 12px rgba(51, 51, 51, 0.5);
+}
+.twentytwenty-right-arrow {
+  border-left-color: var(--my-primary-color);
+}
+.twentytwenty-left-arrow {
+  border-right-color: var(--my-primary-color);
+}
+// /Twentytwenty custom

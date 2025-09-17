@@ -10,9 +10,56 @@
   cursor: pointer;
   user-select: none;
   transition: .3s;
+  text-align: center;
   &--primary {
     background-color: var(--my-primary-color);
-    color: var(--my-secondary-color);
+    color: #fff;
+    &:hover {
+      background-color: var(--my-primary-light-color);
+    }
+  }
+  &--has-icon {
+    position: relative;
+    .my-btn__icon {
+      background-color: #fff;
+    }
+  }
+  &--has-icon-right {
+    .my-btn__icon {
+      right: 20px;
+    }
+  }
+  &__icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translate(0,-50%);
+    transition: .3s;
+    svg {
+      width: 75%;
+      height: 75%;
+      stroke: var(--my-secondary-color);
+      transition: .3s;
+    }
+  }
+  @include media-breakpoint-down(xxl) {
+    height: 90px;
+    &__icon {
+      width: 60px;
+      height: 60px;
+    }
+  }
+  @include media-breakpoint-down(md) {
+    padding: 10px 20px;
+    &__icon {
+      width: 40px;
+      height: 40px;
+    }
   }
 }
 /* /my-btn */

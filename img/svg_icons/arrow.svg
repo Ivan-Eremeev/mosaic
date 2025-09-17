@@ -1,0 +1,5 @@
+<svg viewBox="0 0 77 77" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="77.000000" height="77.000000" fill="none">
+	<rect id="Стрелка влево 1" width="77.000000" height="77.000000" x="0.000000" y="0.000000" transform="matrix(-1,0,0,-1,77,77)" />
+	<path id="Форма 1" d="M0 0L49.6976 0" stroke="rgb(255,255,255)" stroke-linecap="round" stroke-linejoin="round" stroke-width="5.5" transform="matrix(-1,0,0,-1,67.6976,38.5)" />
+	<path id="Форма 2" d="M19.25 38.5L0 19.25L19.25 0" fill-rule="nonzero" stroke="rgb(255,255,255)" stroke-linecap="round" stroke-linejoin="round" stroke-width="5.5" transform="matrix(-1,0,0,-1,67.6978,57.75)" />
+</svg>

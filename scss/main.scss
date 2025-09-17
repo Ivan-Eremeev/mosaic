@@ -17,6 +17,7 @@
 // Цвета
 :root {
   --my-primary-color: #01D8D3;
+  --my-primary-light-color: #00EEE8;
   --my-secondary-color: #000;
 }
 
@@ -27,5 +28,8 @@
 @import 'core/footer';
 
 @import 'elements/my-btn.scss';
+@import 'elements/twentytwenty-custom';
+@import 'elements/breadcrumbs';
 
 @import 'blocks/welcome';
+@import 'blocks/get-instrucrion';
